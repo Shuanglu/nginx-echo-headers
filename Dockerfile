@@ -1,4 +1,4 @@
-FROM openresty/openresty:1.11.2.5-alpine
+FROM openresty/openresty:1.19.9.1-amzn2-amd64
 
 EXPOSE 8080
 ADD nginx.conf /usr/local/openresty/nginx/conf/nginx.conf
